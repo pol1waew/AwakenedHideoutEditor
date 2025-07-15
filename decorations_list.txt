@@ -1,0 +1,1271 @@
+Abyss Sigil Decoration,1
+Angelic Building Supplies,1
+Angelic Curios,1
+Angelic Environmental Effect,1
+Demonic Building Supplies,1
+Demonic Curios,1
+Demonic Environmental Effect,1
+Canine Companion,1
+Wasteland Barricade,1
+Wasteland Campsite,1
+Wasteland Sandstorm,1
+Automaton Decor,1
+Automaton Beam,1
+Automaton Lightning,1
+Sentry Station,1
+Apollyon Stash,1
+Apollyon Guild Stash,1
+Lightbringer Building Supplies,1
+Lightbringer Curios,1
+Lightbringer Environment Effect,1
+Darkshard Building Supplies,1
+Darkshard Curios,1
+Darkshard Environment Effect,1
+Arcane Throne,1
+Arcane Flame,1
+Ice Crystal,1
+Ice Blocks,1
+Snow Drift,1
+Snowman,1
+Snowy Rock,1
+Large Snowy Rock,1
+Mountain Spring,1
+Arctic Ground,1
+Frozen Lake,1
+Atlantis Stash,1
+Atlantis Guild Stash,1
+Siren Building Supplies,1
+Siren Curios,1
+Siren Environmental Effect,1
+Deepwater Building Supplies,1
+Deepwater Curios,1
+Deepwater Environmental Effect,1
+Beast Egg,1
+Beast Egg stalk,1
+Beast Eye,1
+Beast Eyestalk,1
+Absorbed Flesh,1
+Malachai's Dedication,1
+Bulbous Flesh,1
+Vestigial Organs,1
+Vascular Growth,1
+Wall of Spikes,1
+Glandular Anemone,1
+Tumorous Cluster,1
+Stygian Tick,1
+Rapture Device,1
+Seed of Corruption,1
+Rusted Cage,1
+Bestiary Notes,1
+Cloth Sack,1
+Hitching Post,1
+Menagerie Altar,1
+Menagerie Bucket,1
+Menagerie Cage,1
+Menagerie Cage Fence,1
+Menagerie Feeding Trough,1
+Menagerie Fence,1
+Menagerie Food Tray,1
+Menagerie Large Trough,1
+Menagerie Nest,1
+Menagerie Rope Fence,1
+Menagerie Spirit Barrier,1
+Ramshackle Ladder,1
+Beast Trophy,1
+Syndicate Flag,1
+Syndicate Cage,1
+Syndicate Cart,1
+Artefact Cage,1
+Syndicate Drawers,1
+Syndicate Shelf,1
+Syndicate Ladder,1
+Syndicate Cabinet,1
+Syndicate Table,1
+Syndicate Desk,1
+Manifesto Altar,1
+Sandy Grave,1
+Manifesto Stand,1
+Syndicate Fortification,1
+Syndicate Statue,1
+Syndicate Display,1
+Syndicate Armour Rack,1
+Assassin's Daggers,1
+Geomancer's Bench,1
+Syndicate Helm Stand,1
+Syndicate Mannequin,1
+Syndicate Shield Stand,1
+Oriath Army Barrel,1
+Oriath Supply Crate,1
+Oriath Weapons Crate,1
+Oriath Supplies,1
+Oriath Armour Crate,1
+Dead Oriath Soldier Elite,1
+Dead Oriath Soldier,1
+Dead Oriath Soldier Sitting,1
+Dead Oriath Soldier Pieces,1
+Dead Oriath Soldier Pile,1
+Blackguard Barricade,1
+Catapult,1
+Catapult Ammo,1
+Wagon Debris,1
+Dark Cargo Wagon,1
+Light Cargo Wagon,1
+Travel Wagon,1
+Blackguard Infantry Tent,1
+Blackguard Officer Tent,1
+Catapult Ball,1
+Energy Dome,1
+Weapon Rack,1
+Stick With Skull,1
+Animal Skeleton,1
+Whale Skeleton Arms,1
+Whale Skeleton Bones,1
+Whale Skeleton Head,1
+Whale Skeleton Ribs,1
+Large Whale Skeleton Ribs,1
+Whale Skeleton Spine,1
+Labyrinth Corpses,1
+Abyssal Whale Bones,1
+Warped Skull,1
+Charred Skeleton,1
+Ringmaster Building Supplies,1
+Ringmaster Spectators,1
+Ringmaster Fireworks Environment Decoration,1
+Harlequin Building Supplies,1
+Harlequin Spectators,1
+Harlequin Apparition Environment Decoration,1
+Cave Pillar,1
+Cave Stalagmite,1
+Cave Trash,1
+Cave Treasure,1
+Den Pillar,1
+Den Large Rock,1
+Den Small Rock,1
+Den Stalagmites,1
+Den Large Stalagmites,1
+Celestial Tree,1
+Celestial Cathedral,1
+Coursing Celestial River,1
+Solar Map Device,1
+Torment and Bloodlines Challenger Trophy,1
+Warbands and Tempest Challenger Trophy,1
+Talisman Challenger Trophy,1
+Perandus Challenger Trophy,1
+Prophecy Challenger Trophy,1
+Essence Challenger Trophy,1
+Breach Challenger Trophy,1
+Legacy Challenger Trophy,1
+Harbinger Challenger Trophy,1
+Abyss Challenger Trophy,1
+Bestiary Challenger Trophy,1
+Incursion Challenger Trophy,1
+Delve Challenger Trophy,1
+Betrayal Challenger Trophy,1
+Synthesis Challenger Trophy,1
+Legion Challenger Trophy,1
+Blight Challenger Trophy,1
+Metamorph Challenger Trophy,1
+Delirium Challenger Trophy,1
+Harvest Challenger Trophy,1
+Heist Challenger Trophy,1
+Ritual Challenger Trophy,1
+Ultimatum Challenger Trophy,1
+Expedition Challenger Trophy,1
+Scourge Challenger Trophy,1
+Archnemesis Challenger Trophy,1
+Sentinel Challenger Trophy,1
+Kalandra Challenger Trophy,1
+Sanctum Challenger Trophy,1
+Crucible Challenger Trophy,1
+Ruthless Crucible Challenger Trophy,1
+Ancestor Challenger Trophy,1
+Ruthless Ancestor Challenger Trophy,1
+Affliction Challenger Trophy,1
+Ruthless Affliction Challenger Trophy,1
+Necropolis Challenger Trophy,0
+Ruthless Necropolis Challenger Trophy,0
+Settlers Challenger Trophy,0
+Ruthless Settlers Challenger Trophy,0
+Mercenaries Challenger Trophy,0
+Ruthless Mercenaries Challenger Trophy,0
+Lucky Dog,1
+Sacred Cow,1
+Ruined Banner,1
+Temple Basin,1
+Ruined Book Shelf,1
+Ruined Chair,1
+Ruined Divider,1
+Broken Floor,1
+Ruined Large Sofa Bed,1
+Ruined Long Table,1
+Ruined Mat,1
+Ruined Ornate Chair,1
+Ruined Sofa,1
+Ruined Sofa Bed,1
+Ruined Standing Lamp,1
+Ruined Stool,1
+Ruined Table,1
+Ruined Torture Table,1
+Ruined Experiment Table,1
+Ancient Vessel,1
+Ruined Columns,1
+Ruined Fence,1
+Ruined Pillar,1
+Decrepit Fence,1
+Winged Statue,1
+Tombstone,1
+Tomb,1
+Church Pillar,1
+Large Pillar,1
+Church Wall Gate,1
+Large Church Wall Arch,1
+Fellshrine Ruins,1
+Church Wall,1
+Cathedral Debris,1
+Cathedral Podium,1
+Cathedral Tiles,1
+Shore Bonfire,1
+Driftwood Branches,1
+Dead Fish,1
+Shore Plank Debris,1
+Shore Rocks,1
+Dead Seagull,1
+Dead Seagull On Stick,1
+Cannibal Sheet,1
+Shore Stub,1
+Slugs,1
+Flies,1
+Beach Flies,1
+Fly Swarm,1
+Blown Grass,1
+Boat Remains,1
+Large Boat Remains,1
+Boat Wreckage,1
+Driftwood Log,1
+Driftwood Archway,1
+Mast Arch,1
+Rhoa Nest,1
+Seagull Nest,1
+Large Rocks,1
+Large Fortification,1
+Fortification,1
+Swamp Tree Stump,1
+Swamp Tree,1
+Rotten Dead Fish,1
+Reef Coral,1
+Beach Coral,1
+Coral Grass,1
+Coral Barnacles,1
+Barnacles,1
+Coral Cluster,1
+Coral Formation,1
+Rock Formation,1
+Pirate Remains,1
+Basalt Column,0
+Basalt Fragment,0
+Tainted Basalt Column,0
+Tainted Basalt Fragment,0
+Sitting Lion Statue,1
+Sleeping Lion Statue,1
+Standing Lion Statue,1
+Golden Lion Statue,1
+Sand Tracks,1
+Arena Flowers,1
+Flower Pot,1
+Pillar Debris,1
+Thin Column,1
+Animal Cage,1
+Animal Pile,1
+Pit Cleanup Cart,1
+Pit Flags,1
+Pit Post,1
+Slave Cart,1
+Slave Post,1
+Arena Petals,1
+Oriathan Books,1
+Courthouse Bench,1
+Courthouse Bust,1
+Courthouse Armchair,1
+Interrogation Tools,1
+Dominus Portrait,1
+Interrogation Chair,1
+Justice Statue,1
+Reading Desk,1
+Courthouse Side Table,1
+Coffee Table,1
+Court Bookcase,1
+Templar Rug,1
+Courthouse Desk,1
+Jury Stand,1
+Courthouse Table,1
+Writing Desk,1
+Burned Books,1
+Burned Chair,1
+Burned Rug,1
+Burned Bookcase,1
+Burned Desk,1
+Templar Courts Ground,1
+Crypt Fire Pit,1
+Crypt Rubble,1
+Crypt Table,1
+Crypt Tomb,1
+Sarcophagus,1
+Crypt Pillar,1
+Catacomb Pillar,1
+Stone Pillar,1
+Weathered Pot,1
+Large Crypt Rubble,1
+Stone Well,1
+Crystal Debris,1
+Beast Crystal,1
+Blue Crystal,1
+Green Crystal,1
+Red Crystal,1
+White Crystal,1
+Iridescent Crystal,0
+Iridescent Statue,0
+Azurite Bucket,1
+Azurite Chunk,1
+Azurite Vein,1
+Azurite Mine Cart,1
+Mining Equipment,1
+Mining Machinery,1
+Sulphite Light,1
+Sulphite Vein,1
+Sulphur Stack,1
+The Crawler,1
+Coursing Azurite,1
+Demonic Waypoint,1
+Demonic Map Device,1
+Demonic Horn,0
+Demonic Palisade,0
+Demonic Barricade,0
+Demonic Sore,0
+Demonic Accretion,0
+Demonic Remnant,0
+Auspicious Serpent Map Device,0
+Void Serpent Map Device,0
+Mercurial Serpent Map Device,0
+Thrashing Tentacle,0
+Demonbound Crafting Bench,0
+Amplifier Chair,1
+Brutus' Cradle,1
+Prison Bunk,1
+Prison Desk,1
+Prison Table,1
+Sewer Moss,1
+Sewer Pipes,1
+Prison Rostrum,1
+Tools Board,1
+Prison Stocks,1
+Prison Rack,1
+Hanging Cage,1
+Spiked Chair,1
+Iron Boot,1
+Prison Cage,1
+Torture Table,1
+Iron Maiden,1
+Bastinado,1
+Scavenger's Daughter,1
+Gilded Stocks,1
+Gilded Cradle,1
+Gilded Spiked Chair,1
+Gilded Cage,1
+Gilded Bastinado,1
+Gilded Iron Maiden,1
+Gilded Scavenger's Daughter,1
+Experiment Table,1
+Torture Urn,1
+High Chair,1
+Axiom Pillar,1
+Prison Bars,1
+Pedestal Cage,1
+Surgical Debris,1
+Catherine Wheel,1
+Spore Pods,1
+Toxic Pods,1
+Toxic Pustules,1
+Toxic Fungus,1
+Toxic Growths,1
+Scattered Coins,1
+Fetid Air Particles,1
+Ghostly Fog,1
+Fetid Smog,1
+Snowfall,1
+Glow Worms,1
+Blue Light Beam,1
+Falling Leaves,1
+Yellow Light Beam,1
+Glowing Embers,1
+White Lights,1
+Rain,1
+Corrupted Specks,1
+Corruption,1
+Golden Sparkles,1
+Wisp Swarm,1
+Wide Light Beam,1
+Blood Fog (Red),1
+Blood Fog (Yellow),1
+Lava Glow,1
+Water Fog,1
+Dark Firework,1
+Blood Rain,1
+Sunspire Hideout Effect,1
+Doomcrow Hideout Effect,1
+Rising Smoke,1
+Thick Smoke,1
+Raging Fire,1
+Blocking Volume,1
+Void Ground,1
+White Proximity Light,0
+Yellow Proximity Light,0
+Orange Proximity Light,0
+Red Proximity Light,0
+Blue Proximity Light,0
+Turquoise Proximity Light,0
+Purple Proximity Light,0
+Pink Proximity Light,0
+Green Proximity Light,0
+Barrels,1
+Barricade,1
+Basket,1
+Buckets,1
+Palisade Cart,1
+Chopped Wood,1
+Fish Stand,1
+Palisade,1
+Clay Pot,1
+Pot Line,1
+Hunted Rhoa,1
+Scrap Pile,1
+Sitting Log,1
+Torch,1
+Urn,1
+Wagon,1
+Flag,1
+Cauldron,1
+Bandit Tent,1
+Fireplace,1
+Camp Rug,1
+Medium Tent,1
+Large Tent,1
+Fortification Door,1
+Palisade Gate,1
+Lookout's Booth,1
+Letters of Exile,1
+Lighthouse Remains,1
+Ashen Bonfire,1
+Burlap Sack,1
+Destroyed Barricade,1
+Snowy Hay Bale,1
+Target Dummy,1
+Wooden Barricade,1
+Wooden Bucket,1
+Wooden Stool,1
+Wooden Tray,1
+Wooden Workbench,1
+Lioneye's Watch Ground,1
+Metal Beam,1
+Rusty Crane,1
+Weathered Crane,1
+Abandoned Crane,1
+Wooden Pallet,1
+Rusty Gear,1
+Rusty Disk,1
+Junk Pile,1
+Rusty Machine,1
+Wooden Beam,1
+Metal Plate,1
+Metal Rod,1
+Rope,1
+Rusty Spindle,1
+Ruined Arch,1
+Dig Machinery,1
+Wooden Board,1
+Excavated Brick,1
+Cloth Post,1
+Ruined Column,1
+Ramshackle Hut,1
+Rubble Strip,1
+Archaeologist's Peg,1
+Ancient Rubble,1
+Exposed Ruins,1
+Dried Well,1
+Hungry Exile,1
+Tired Exile,1
+Depressed Exile,1
+Wounded Exile,1
+Frightened Exile,1
+Kalguur Ancestral Portal,1
+Kalguur Weapon Rack,1
+Kalguur Armour Stand,1
+Kalguur Altar,1
+Kalguur Pillar,1
+Kalguur Brazier,1
+Kalguur Floor Medallion,1
+Triskelion Flame,1
+Corsair Building Supplies,1
+Mysterious Treasure,1
+Pooled Water,1
+Mystic Building Supplies,1
+Mystic Cave,1
+Mystic Glowworms,1
+Fairgraves Stash,1
+Fairgraves Guild Stash,1
+Firepit,1
+Coursing Lava,1
+Burning Corpse Pile,1
+Frozen Corpse Pile,1
+Ice Gale,1
+Fire Gale,1
+Ice Bricks,1
+Fire Bricks,1
+Bush,1
+Moss Monster,1
+Palm Tree,1
+Mossy Cairn,1
+Forest Rock,1
+Prayer Stones,1
+Tree,1
+Lush Tree,1
+Waystone,1
+Thicket Tree,1
+Forest Flowers,1
+Webbed Remains,1
+Webbed Stump,1
+Spider Food,1
+Tribal Chest,1
+Web-Covered Tree,1
+Stone Archway,1
+Lion Statue,1
+Stone Obelisk,1
+Forest Tree,1
+Dry Tree,1
+Thick Trees,1
+Decorated Tree,1
+Decorated Trees,1
+Webbed Tree,1
+Tree Hut,1
+Mossy Wall,1
+Low Mossy Wall,1
+Stone Arch,1
+Mossy Wall Arch,1
+Rotten Stump,1
+Gruthkul Shrine,1
+Overgrown Corpse,1
+Ryslatha Tree,1
+Forest Encampment Ground,1
+Woodland Objects,1
+Image of Catarina,1
+Image of Elreon,1
+Image of Haku,1
+Image of Leo,1
+Image of Tora,1
+Image of Vagan,1
+Image of Vorici,1
+Image of Navali,0
+Image of Zana,0
+Image of Tane Octavius,0
+Wild Tree,1
+Wild Shrine,1
+Wild Wind Effect,1
+Wrangler Building Supplies,1
+Wrangler Pylon,1
+Wrangler Gold Rain,1
+Colossus Hand,1
+Colossus Head,1
+Colossus Leg,1
+Colossus Sword,1
+Garden Wall,1
+Bulb Palm,1
+Garden Palm,1
+Lush Palm,1
+Palm Group,1
+Raphina Tree,1
+Ravenal Tree,1
+Overgrown Arch,1
+Garden Path,1
+Road Trim,1
+Overgrown Wall,1
+Golden Bust,1
+Stone Bust,1
+Overgrown Offering Statue,1
+Overgrown Statue,1
+Large Overgrown Statue,1
+Stone Statue,1
+Garden Column,1
+Small Garden Statue,1
+Large Garden Statue,1
+Fern,1
+Madcap Building Supplies,1
+Madcap Tree,1
+Madcap Spores,1
+Huntsman Building Supplies,1
+Huntsman Tree,1
+Huntsman Spores,1
+Fresh Giblets,1
+Old Giblets,1
+Severed Heads,1
+Hung Corpse,1
+Impaled Corpse,1
+Emaciated Corpse,1
+Cavia Porcellus,1
+Bloody Corpse,1
+Disembodied Corpse,1
+Emaciated Corpse Pile,1
+Cavia Porcellus Pile,1
+Bloody Corpse Pile,1
+Covered Corpses,1
+Impaling Spike,1
+Body Bag,1
+Sacrificial Shrine,1
+Belly Ground Spikes,1
+Impaled Monster,1
+Flesh Glob,1
+Blood and Bone,1
+Pitbull Corpse,1
+Head Platter,1
+Malachai Heart,1
+Pooling Blood,1
+Corpse Cart,1
+Corpse Crane,1
+Dead Slave,1
+Monster Corpse,1
+Corpse Sculpture,1
+Blood Pool Kit,1
+Blood Plane,1
+Undead Citizen,1
+Coursing Blood,1
+Hallowed Grave,1
+Jack-o'-Lantern Patch,1
+Harmony Stash,0
+Harmony Guild Stash,0
+Heritage Building Supplies,1
+Heritage Curios,1
+Heritage Environmental Effect,1
+Divergence Building Supplies,1
+Divergence Curios,1
+Divergence Environmental Effect,1
+Weapon Display,1
+Treasury Curios,1
+Display Cabinet,1
+War Table,1
+Hana's Memorial,1
+Full Armour Stand,1
+Bow Rack,1
+Round Weapon Rack,1
+Highgate Weapon Rack,1
+Body Armour Stand,1
+Helmet Stand,1
+Large Aqueduct Boat,1
+Voll's Confession,1
+Crumbled Barricade,1
+Crumbled Boxes,1
+Crumbled Carts,1
+Crumbled Flag,1
+Weathered Tent,1
+Corrupt Marble,1
+Fossilised Miners,1
+Mine Rock,1
+Mine Cart,1
+Highgate Column,1
+Foothills Debris,1
+Wagon Wheel,1
+Ski Equipment,1
+Planter Box,1
+Stable Objects,1
+Ice Sculpture,1
+Illusionist Sigil Decoration,1
+Infernal Throne,1
+Charred Crater,1
+Sanctum Statue,1
+Incense Burner,1
+Innocence Altar,1
+Innocence Bench,1
+Innocence Candelabra,1
+Innocence Candle,1
+Innocence Candle Row,1
+Innocence Shrine,1
+Innocence Side Table,1
+Innocence Statue,1
+Innocence Statue Pedestal,1
+Innocence Tomb,1
+Sanctum Pillar,1
+Altar Burner,1
+Holy Seal,1
+Maulhead Basket,1
+Meat Baskets,1
+Arena Fence,1
+Lava Fountain,1
+Red Grass,1
+Kaom Rock,1
+Skull Spikes,1
+Karui Palisade,1
+Wooden Plate,1
+Ropes,1
+Sack of Gems,1
+Weathered Skull Pile,1
+Weathered Skull Display,1
+Spiral Stone,1
+Whare Rug,1
+Kaom's Throne,1
+Summoning Circle,1
+Kitava Head,1
+Kitava Heart,1
+Kitava Horns,1
+Karui Carving,1
+Kitava Altar,1
+Kitava Banner,1
+Volcanic Pebble,1
+Volcanic Rock,1
+Whare Floor,1
+Kitava Skull,1
+Karui Weapon Holder,1
+Karui Weapon Rack,1
+Karui Weapon Display,1
+Karui Decoration,0
+Karui Fence,0
+Karui Seat,0
+Labyrinth Cogs,1
+Door Frame,1
+Labyrinth Lever,1
+Wall Switch,1
+Labyrinth Plaque,1
+Crude Fence,1
+Broken Ornate Fence,1
+Ornate Fence,1
+Clump of Vines,1
+Broken Spikes,1
+Classical Wall Decoration,1
+Splintered Wood,1
+Rail Post,1
+Labyrinth Rosette,1
+Shattered Blade,1
+Blade Sentry Debris,1
+Broken Blade Sentry,1
+Broken Spinner Debris,1
+Broken Spinner,1
+Dart Debris,1
+Edge Blade,1
+Sawblade Tracks,1
+Spinner Tracks,1
+Garden Statue,1
+Circular Column,1
+Goddess Statue,1
+Ancient Books,1
+Scattered Books,1
+Library Book Pile,1
+Book Pile,1
+Display Case,1
+Skeleton Display,1
+Skull Display,1
+Messy Study Table,1
+Giant Whale Skeleton,1
+Library Bust,1
+Library Statue,1
+Lightning Coil,1
+Maraketh Lantern,1
+Bamboo Pile,1
+Bamboo Fence,1
+Bamboo Divider,1
+Bamboo Floor,1
+Maraketh Rug,1
+Maraketh Cushion,1
+Maraketh Banner,1
+Maraketh Brazier,1
+Rhex Statue,1
+Maple Tree,1
+Tasuni's Shrine,1
+Shrine Table,1
+Oyun's Throne,1
+Maraketh Gong,1
+Maraketh Table,1
+Ornate Bar,1
+Ornate Wall Hanging,1
+Lotus Terrace Stand,1
+Lotus Bench,1
+Maraketh Goddess Statue,0
+Maraketh Trinkets,0
+Maraketh Pillows,0
+Maraketh Mat,0
+Maraketh Ruin,0
+Maraketh Shelter,0
+Midnight Pact Stash,1
+Midnight Pact Guild Stash,1
+Scavenger Building Supplies,1
+Scavenger Curios,1
+Scavenger Environmental Effect,1
+Overseer Building Supplies,1
+Overseer Curios,1
+Overseer Environmental Effect,1
+Miracle Map Device,1
+Miracle Map Device I,1
+Miracle Map Device II,1
+Miracle Map Device III,1
+Rhoa Dinner,1
+Hoarder's Stash,0
+Hoarder's Guild Stash,0
+Kalandra Stash,0
+Kalandra Guild Stash,0
+Dragon's Currency Hoard Stash,0
+Dragon's Currency Hoard Guild Stash,0
+Crucible Stash,0
+Crucible Guild Stash,0
+Ancestor Stash,0
+Ancestor Guild Stash,0
+Seed Stockpile,0
+Sentinel Locker,0
+Ritual Totem,1
+Shengjing Building Supplies1,1
+Shengjing Building Supplies2,1
+Shengjing Building Supplies3,1
+Shengjing Building Supplies4,1
+Shengjing Building Supplies5,1
+Item Display Case,1
+Rhoa Feast,1
+Pumpkins,1
+Dry Flax,1
+Agave Plant,1
+Aloe Plant,1
+Desert Cactus,1
+Desert Grass,1
+Desert Plants,1
+Flax Plant,1
+Macrotaen Plant,1
+Poppy Plant,1
+White Fern,1
+Foothills Grass,1
+Burned Branch,1
+Burned Tree,1
+Mushroom Cluster,1
+Pohutukawa Tree,1
+Sand Pile,1
+Overgrown Boulder,1
+Petrified Stump,1
+Petrified Tree,1
+Tree Roots,1
+Water Elemental Hideout Decoration,1
+Water Plane,1
+Grass Patch,1
+Dirt Ground,1
+Grass Ground,1
+Sand Ground,1
+Plum Blossom,1
+Incandescent Fungus,1
+Well Objects,1
+Coursing River,1
+Magebloom Map Device,0
+Heart of the Grove Hideout Decoration,0
+Oriath Standard Bearer,1
+Oriath Citizen,1
+Oriath Citizen Corpse,1
+Sin Symbol,1
+Sin Cathedral,1
+Innocence Symbol,1
+Innocence Cathedral,1
+Light Mural Tile,1
+Dark Mural Tile,1
+Light Oriath Statue,1
+Dark Oriath Statue,1
+Oriath Wall,1
+Oriath Fence,1
+Frozen Tree,1
+Verdant Tree,1
+Oriath Statue,1
+Broken Barricade,1
+Broken Pole,1
+Ramshackle Crate,1
+Ramshackle Wall,1
+Arched Gateway,1
+Building Supplies,1
+Oriath Barrels,1
+Oriath Brazier,1
+Oriath Guard Shed,1
+Oriath Ladder,1
+Oriath Lantern,1
+Oriath Rubble,1
+Oriath Scaffolding,1
+Templar Barricade,1
+Templar Corpse,1
+Wicker Basket,1
+Charred Wood Pile,1
+Prisoners' Monument,1
+Oriath Square Fountain,1
+Oriath Curb,1
+Triumph Fountain,1
+Oriath Ground,1
+Oriath Doorway,1
+Oriathan Child,1
+Oriath Barrier,1
+Pool Kit,1
+Wood Ground,1
+Oriath Sigil Decoration,1
+Fountain Objects,1
+Twilight Potted Tree,0
+Twilight Potted Plant,0
+Twilight Planter,0
+Twilight Tree,0
+Twilight Market Stall,0
+Twilight Telescope,0
+Twilight Indoor Chair,0
+Twilight Outdoor Chair,0
+Twilight Banquet Table,0
+Twilight Bench,0
+Twilight Carpet,0
+Twilight Container,0
+Twilight Stockpile,0
+Twilight Table,0
+Apprentice Hideout Banner,1
+Journeyman Hideout Banner,1
+Master Hideout Banner,1
+Grandmaster Hideout Banner,1
+Golden Offering Statue,1
+Copper Chest,1
+Golden Chest,1
+Golden Bars,1
+Bronze Gargoyle Statue,1
+Golden Gargoyle Statue,1
+Ornate Planter,1
+Plant Pot,1
+Bathhouse Rug,1
+Bathhouse Mosaic,1
+Comfy Chair,1
+Ossuary Brazier,1
+Weathered Grave,1
+Ossuary Plaque,1
+Ossuary Grave,1
+Ossuary Grave Marker,1
+Ossuary Pillar,1
+Bone Sculpture,1
+Bone Display,1
+Skull Pile,1
+Abyssal Ritual Circle,1
+Black Building Supplies,1
+Black Statue,1
+Black Environment Hideout Decoration,1
+White Building Supplies,1
+White Statue,1
+White Environment Hideout Decoration,1
+Primeval Support,1
+Primeval Tablet,1
+Primeval Carving,1
+Primeval Pillar,1
+Primeval Container,1
+Primeval Bench,1
+Primeval Column Arc,1
+Primeval Way Marker,1
+Primeval Column,1
+Primeval Debris,1
+Primeval Rubble,1
+Petrified Primevals,1
+Primeval Planter,1
+Primeval Vase,1
+Primeval Marker,1
+Primeval Stand,1
+Primeval Floor Crystal,1
+Primeval Shrine,1
+Primeval Trough,1
+Primeval Throne,1
+Primeval Tree Planter,1
+Primeval Chair,1
+Primeval Table,1
+Primeval Floor Mural,1
+Primeval Floor Light,1
+Primeval Power Source,1
+Strange Building Supplies,1
+Oil Lamp,1
+Ornate Vase,1
+Strange Globe,1
+Metal Relic Stand,1
+Ornate Relic Stand,1
+Tiny Relic Stand,1
+Small Relic Stand,1
+Small Looted Stand,1
+Relic Stand,1
+Looted Stand,1
+Small Relic Display,1
+Small Looted Display,1
+Small Relic Table,1
+Small Looted Table,1
+Relic Display,1
+Looted Display,1
+Relic Table,1
+Looted Table,1
+Large Relic Display,1
+Relic Case,1
+Looted Case,1
+Relic Crate,1
+Looted Crate,1
+Reliquary Pillar,1
+Shrouded Furniture,1
+Discarded Sheet,1
+Broken Glass,1
+Relic Pile,1
+Weapon Display Table,1
+Sword Display Case,1
+Sword In Ground,1
+Stone Pieces,1
+Stone Shattered Pieces,1
+Flat Stone Slabs,1
+Stacked Stone Slabs,1
+Market Debris,1
+Market Shelf,1
+Shelf Debris,1
+Large Shelf,1
+Large Slum Debris,1
+Slum Debris,1
+Slum Fence,1
+Damaged Barrels,1
+Damaged Cargo,1
+Damaged Shelves,1
+Decayed Statue,1
+Railway,1
+Market Pillar,1
+Sarn Archway,1
+Sarn Tree,1
+Blown Leaves,1
+Slum Building,1
+Iron Fence,1
+Stone Hitching Post,1
+Torture Device,1
+Worn Anvil,1
+Bricks,1
+Grigor's Wall,1
+Wooden Fence,1
+Low Fire Pit,1
+Hanging Brazier,1
+Wooden Post,1
+Stone Post,1
+Wooden Hut,1
+Scavenged Rug,1
+Functional Stall,1
+Elaborate Stall,1
+Stall Counter,1
+Sarn Palm,1
+Statue of the Sisters,1
+Mosaic Wall,1
+Sky Shrine Wall,1
+Sky Shrine Door,1
+Sky Shrine Mosaic,1
+Sky Shrine Pillar,1
+Sky Shrine Rubble,1
+Bridge Debris,1
+Lantern Post,1
+Clay Bucket,1
+Decorative Rug,1
+Empty Crate,1
+Jug,1
+Metal Lantern,1
+Rope Basket,1
+Bare Tree,1
+Bare Branches,1
+Flagstone Ground,1
+Sewer Ground,1
+Candelabrum,1
+Lounge Chair,1
+Dining Chair,1
+Book Shelf,1
+Study Desk,1
+Dressing Table,1
+Cabinet,1
+Bird Cage,1
+Sceptre Of God Debris,1
+Broken Painting,1
+Golden Arch,1
+Small Bird Cage,1
+Medium Bird Cage,1
+Large Bird Cage,1
+Floral Chair,1
+Lordly Chair,1
+Triclinium,1
+Dining Table,1
+Side Table,1
+Tower Archway,1
+Brick Archway,1
+Tower Debris,1
+Wooden Planks,1
+Classical Painting,1
+Fence Debris,1
+Slave Gallows,1
+Iron Brazier,1
+Iron Candelabra,1
+Iron Lantern,1
+Iron Stove,1
+Kitchen Cabinet,1
+Slave Cage,1
+Slave Pens Barrel,1
+Slave Pens Bed,1
+Slave Pens Bench,1
+Slave Pens Bunk Bed,1
+Slave Pens Chair,1
+Slave Pens Crate,1
+Slave Pens Dining Table,1
+Slave Pens Drawing Table,1
+Slave Pens Rug,1
+Slave Pens Stool,1
+Slave Pens Table,1
+Slave Pens Wagon,1
+Smithing Equipment,1
+Templar Experiment Table,1
+Templar Torture Table,1
+Wounded Slave,1
+Blacksmith's Rack,1
+Blacksmith's Barrel,1
+Tile Ground,1
+Bronze Piping,1
+Extraction Device,1
+Transformer,1
+Energizer,1
+Steam Pipes,1
+Pipe Kit,1
+Water Pipe,1
+[DO NOT USE] Laboratory Wall,0
+[DO NOT USE] Laboratory Waypoint,0
+[DO NOT USE] Laboratory Equipment,0
+[DO NOT USE] Laboratory Table,0
+[DO NOT USE] Laboratory Pipes,0
+Power Cable,1
+Tower Pod,1
+Tower Apparatus,1
+Steam Hydrant,1
+Floor Pipes,1
+Wall Machinery,1
+Generator,1
+Laboratory Alembic,1
+Laboratory Apparatus,1
+Laboratory Fireplace,1
+Laboratory Flask,1
+Laboratory Flask Tower,1
+Laboratory Pipe,1
+Laboratory Shelf,1
+Laboratory Tank,1
+Metamorph Tank,1
+Laboratory Work Bench,1
+Laboratory Table,1
+Laboratory Vats,1
+Phoenix Vent,1
+Portal Parts,1
+Theurgic Precipitate Machine,1
+Stygian Sigil Decoration,1
+Synthesis Waypoint,1
+Synthesis Emitter,1
+Venarius' Drawings,1
+Venarius' Toys,1
+Map Device Parts,1
+Synthesis Trim,1
+Derelict Map Device,1
+Engineering Desk,1
+Synthesis Medallion,1
+Memory Stabilizer,1
+Synthesis Golem Parts,1
+Loose Floorboards,1
+Grand Column,1
+Stained-Glass Window,1
+Synthesis Light Beam,1
+Synthesiser,1
+Synthesis Map Device,1
+Dead Ribbon,1
+Dead Guardian,1
+Dead Sentinel,1
+Gilded Book Shelf,1
+Temple Chair,1
+Temple Divider,1
+Drawing Table,1
+Hanging Lamp,1
+Temple Mat,1
+Ornate Banner,1
+Ornate Basin,1
+Long Table,1
+Temple Stool,1
+Tea Set,1
+Gilded Tools Board,1
+Ornate Chair,1
+Temple Sofa,1
+Large Sofa Bed,1
+Standing Lamp,1
+Gilded Table,1
+Dark Vessel,1
+Golden Vessel,1
+Golden Statue,1
+Medium Golden Statue,1
+Large Golden Statue,1
+Temple Arch,1
+Red Carpet,1
+Temple Pillar,1
+Columns,1
+Temple Desk,1
+Gilded Torture Table,1
+Pillars and Flag,1
+Temple Throne,1
+Solaris Throne,1
+Temple Sigil Decoration,1
+Laboratory Building Supplies,1
+Laboratory Benches,1
+Laboratory Environment Hideout Decoration,1
+Twisted Building Supplies,1
+Twisted Experiments,1
+Twisted Environment Hideout Decoration,1
+Thaumaturgy Pillar,1
+Twilight Stash,1
+Twilight Guild Stash,1
+Sunrise Building Supplies,1
+Sunrise Objects,1
+Sunrise Environmental Effect,1
+Nightfall Building Supplies,1
+Nightfall Crystals,1
+Nightfall Environmental Effect,1
+Trials of Chaos Hideout Decoration,0
+Horticrafting Station,1
+Heist Locker,1
+Expedition Locker,1
+Relic Locker,1
+Necropolis Locker,1
+Scientist Tinker's Waypoint,0
+Stormcaller Tinker's Waypoint,0
+Divine Tinker's Waypoint,0
+Darkshard Tinker's Waypoint,0
+Verdant Tinker's Waypoint,0
+Thaumaturgy Tinker's Waypoint,0
+Map Device,0
+Crafting Bench,1
+Stash,0
+Guild Stash,0
+Waypoint,0
+Helena,0
+Einhar,0
+Alva,0
+Niko,0
+Jun,0
+Sister Cassia,0
+Kirac,0
+Dannig, Warrior Skald,0
+Gwennen, the Gambler,0
+Tujen, the Haggler,0
+Rog, the Dealer,0
+The Last to Die,0
+Lilly Roth,0
+Cadiro Perandus,0
+Image of Undertaker Arimor,0
+Johan, the King's Hand,0
+Faustus, the Financier,0
+Eagon Caeserius,0
+Peddling Villager,0
+Sacred Archives Map Device,0
+First Mercenary,0
+Second Mercenary,0
+Third Mercenary,0
+Recombinator,0
+Assassin Djinn's Map Device,0
+Water Djinn's Map Device,0
+Time Djinn's Map Device,0
+Verdant Throne,1
+Warlord Stash,1
+Warlord Guild Stash,1
+Suffering Building Supplies,1
+Suffering Curios,1
+Suffering Environmental Effect,1
+Misery Building Supplies,1
+Misery Curios,1
+Misery Environmental Effect,1
+Sentinel Stash,0
+Sentinel Guild Stash,0
