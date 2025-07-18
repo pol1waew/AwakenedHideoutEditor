@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>622</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <layout class="QVBoxLayout" name="central_layout">
+    <item>
+     <widget class="QSlider" name="scale_slider">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>817</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file_menu">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="save_action"/>
+    <addaction name="override_action"/>
+   </widget>
+   <widget class="QMenu" name="funcs_menu">
+    <property name="title">
+     <string>Funcs</string>
+    </property>
+    <addaction name="remove_mtx_action"/>
+   </widget>
+   <addaction name="file_menu"/>
+   <addaction name="funcs_menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="override_action">
+   <property name="text">
+    <string>Override existing</string>
+   </property>
+  </action>
+  <action name="save_action">
+   <property name="text">
+    <string>Save as new</string>
+   </property>
+  </action>
+  <action name="remove_mtx_action">
+   <property name="text">
+    <string>Remove all MTX's</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
