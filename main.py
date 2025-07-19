@@ -1,10 +1,6 @@
-from PySide6.QtWidgets import QApplication
-from gui.main_window import MainWindow
+from gui.application import Application
 
 
-app = QApplication()
-main_window = MainWindow()
-
-main_window.show()
+app = Application()
 
 app.exec()

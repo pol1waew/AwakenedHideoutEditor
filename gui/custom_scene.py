@@ -2,6 +2,7 @@ from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QWidget, QGraphicsScene, QGraphicsTextItem, QGraphicsSceneMouseEvent, QRubberBand
 from PySide6.QtGui import QKeyEvent
 from collections import defaultdict
+import pandas as pd
 from gui.doodad_scene_item import DoodadSceneItem
 
 
@@ -16,6 +17,10 @@ class Scene(QGraphicsScene):
         self.pivot_marker = QGraphicsTextItem("+")
         self.pivot_marker.setPos(0., 0.)
         #self.addItem(self.pivot_marker)
+
+    def load_hideout_data(self, doodads_data : pd.DataFrame):
+        for i, data in doodads_data.iterrows():
+            self.create_item(data["name"], data["uuid"], data["hash"], data["x"], data["y"])
 
     def create_item(self, display_name : str, uuid : str, doodad_hash : int, pos_x : float, pos_y : float):
         scene_item = DoodadSceneItem("+" + display_name, uuid, doodad_hash)

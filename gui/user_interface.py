@@ -51,6 +51,8 @@ class UserInterface(object):
         self.menubar.setGeometry(QRect(0, 0, 817, 33))
         main_window.setMenuBar(self.menubar)
 
+        self.load_action = QAction(main_window)
+        self.load_action.setObjectName(u"load_action")
         self.override_action = QAction(main_window)
         self.override_action.setObjectName(u"override_action")
         self.save_action = QAction(main_window)
@@ -58,11 +60,13 @@ class UserInterface(object):
 
         self.file_menu = QMenu(self.menubar)
         self.file_menu.setObjectName(u"file_menu")
+        self.file_menu.addAction(self.load_action)
         self.file_menu.addAction(self.save_action)
         self.file_menu.addAction(self.override_action)
 
         self.show_all_action = QAction(main_window)
         self.show_all_action.setObjectName(u"show_all_action")
+        ## TODO: move to main_window or future custom QApplication
         self.show_all_action.triggered.connect(self.scene.show_all)
         self.remove_mtx_action = QAction(main_window)
         self.remove_mtx_action.setObjectName(u"remove_mtx_action")
@@ -84,9 +88,11 @@ class UserInterface(object):
         QMetaObject.connectSlotsByName(main_window)
 
     def retranslate_ui(self):
-        self.override_action.setText(QCoreApplication.translate("MainWindow", u"Override existing", None))
+        self.load_action.setText(QCoreApplication.translate("MainWindow", u"Load from file", None))
         self.save_action.setText(QCoreApplication.translate("MainWindow", u"Save as new", None))
+        self.override_action.setText(QCoreApplication.translate("MainWindow", u"Override existing", None))
+        self.file_menu.setTitle(QCoreApplication.translate("MainWindow", u"File", None))
+
         self.show_all_action.setText(QCoreApplication.translate("MainWindow", u"Show all doodads", None))
         self.remove_mtx_action.setText(QCoreApplication.translate("MainWindow", u"Remove all MTX's", None))
-        self.file_menu.setTitle(QCoreApplication.translate("MainWindow", u"File", None))
         self.funcs_menu.setTitle(QCoreApplication.translate("MainWindow", u"Funcs", None))

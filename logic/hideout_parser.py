@@ -24,32 +24,26 @@ class HideoutParser:
             self.hideout_hash = re.search(self.HIDEOUT_HASH_REGEX, hideout_data).group(1)
             
             decorations_raw_data = re.findall(self.DECORATIONS_REGEX, hideout_data)
-            self.decorations_data = pd.DataFrame(decorations_raw_data, columns=["name", "hash", "x", "y", "r", "fv"])
-            self.decorations_data.insert(0, "uuid", None)
+            self.doodads_data = pd.DataFrame(decorations_raw_data, columns=["name", "hash", "x", "y", "r", "fv"])
+            self.doodads_data.insert(0, "uuid", None)
 
-            self.decorations_data = self.decorations_data.astype({"uuid" : str, "name" : str, "hash" : int,
+            self.doodads_data = self.doodads_data.astype({"uuid" : str, "name" : str, "hash" : int,
                                                                   "x" : int, "y" : int, "r" : int, "fv" : int})
 
-            self.decorations_data["uuid"] = self.decorations_data["uuid"].apply(lambda id: uuid.uuid4())
+            self.doodads_data["uuid"] = self.doodads_data["uuid"].apply(lambda id: uuid.uuid4())
 
     def set_decoration_location(self, uuid : int, target_x : int, target_y : int):
-        self.set_decoration_x(uuid, target_x)
-        self.set_decoration_y(uuid, target_y)
-
-    def set_decoration_x(self, uuid : int, target_x : int):
-        self.decorations_data.loc[self.decorations_data["uuid"] == uuid, ["x",]] = target_x
-    
-    def set_decoration_y(self, uuid : int, target_y : int):
-        self.decorations_data.loc[self.decorations_data["uuid"] == uuid, ["y",]] = target_y
+        self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["x",]] = target_x
+        self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["y",]] = target_y
 
     def set_decoration_r(self, uuid : int, target_r : int):
-        self.decorations_data.loc[self.decorations_data["uuid"] == uuid, ["r",]] = target_r
+        self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["r",]] = target_r
 
     def set_decoration_fv(self, uuid : int, target_fv : int):
-        self.decorations_data.loc[self.decorations_data["uuid"] == uuid, ["fv",]] = target_fv
+        self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["fv",]] = target_fv
 
     def remove_decoration_by_uuid(self, uuid : int):
-        self.decorations_data = self.decorations_data.drop(self.decorations_data[self.decorations_data["uuid"] == uuid].index)
+        self.doodads_data = self.doodads_data.drop(self.doodads_data[self.doodads_data["uuid"] == uuid].index)
 
     def remove_decoration_by_hash(self, hash : int):
         pass

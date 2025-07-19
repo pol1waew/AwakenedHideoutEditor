@@ -1,9 +1,9 @@
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtCore import QFile, QIODevice, Qt
-from PySide6.QtWidgets import QMainWindow, QWidget, QGraphicsTextItem, QGraphicsTextItem
+from PySide6.QtWidgets import QMainWindow
+import pandas as pd
 from gui.user_interface import UserInterface
 from gui.doodad_list_item import DoodadListItem
-from logic.hideout_parser import HideoutParser
 
 
 class MainWindow(QMainWindow):
@@ -12,19 +12,18 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Awakened Hideout Editor")
         self.setObjectName(u"main_window")
-        self.setEnabled(True)
         self.resize(1280, 720)
+        self.setEnabled(True)
 
         self.ui = UserInterface()
         self.ui.setup_ui(self)
 
         DoodadListItem.set_scene_reference(self.ui.scene)
-        self.parser = HideoutParser("logic/2B Dreadnought-1.0.hideout")
 
-        for i, data in self.parser.decorations_data.iterrows():
-            self.ui.scene.create_item(data["name"], data["uuid"], data["hash"], data["x"], data["y"])
+    def load_hideout_data(self, doodads_data : pd.DataFrame):
+        self.ui.scene.load_hideout_data(doodads_data)
 
-        for i, data in self.parser.decorations_data.drop_duplicates(subset=["hash"]).iterrows():
+        for i, data in doodads_data.drop_duplicates(subset=["hash"]).iterrows():
             item = DoodadListItem(data["name"], data["hash"], self.ui.doodads_container)
-            item.set_count((self.parser.decorations_data["name"] == data["name"]).sum())
+            item.set_count((doodads_data["name"] == data["name"]).sum())
             self.ui.doodads_layout.addWidget(item)
