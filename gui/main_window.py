@@ -22,8 +22,4 @@ class MainWindow(QMainWindow):
 
     def load_hideout_data(self, doodads_data : pd.DataFrame):
         self.ui.scene.load_hideout_data(doodads_data)
-
-        for i, data in doodads_data.drop_duplicates(subset=["hash"]).iterrows():
-            item = DoodadListItem(data["name"], data["hash"], self.ui.doodads_container)
-            item.set_count((doodads_data["name"] == data["name"]).sum())
-            self.ui.doodads_layout.addWidget(item)
+        self.ui.doodads_list.load_hideout_data(doodads_data)        

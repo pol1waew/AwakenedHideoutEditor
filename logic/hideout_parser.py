@@ -11,26 +11,40 @@ class HideoutParser:
     DECORATIONS_REGEX = r'"([\w\s]+)"\s*:\s*{\s*"hash"\s*:\s*(\d+),\s*"x"\s*:\s*(\d+),\s*"y"\s*:\s*(\d+),\s*"r"\s*:\s*(\d+),\s*"fv"\s*:\s*(\d+)\s*}'
 
 
-    def __init__(self, file_path : str):
-        self.get_hideout_information(file_path)
+    def parse_hideout_file(self, file_path : str) -> bool:
+        """Parse hideout file from file_path
 
-    def get_hideout_information(self, file_path : str):
+        Returns a bool value indicating the success of file parsing. Will return False if file not exists. 
+        """
+        
         with open(file_path, "r") as file:
             hideout_data = file.read()
             
-            self.version = re.search(self.VERSION_REGEX, hideout_data).group(1)
-            self.language = re.search(self.LANGUAGE_REGEX, hideout_data).group(1)
-            self.hideout_name = re.search(self.HIDEOUT_NAME_REGEX, hideout_data).group(1)
-            self.hideout_hash = re.search(self.HIDEOUT_HASH_REGEX, hideout_data).group(1)
+            try:
+                self.version = re.search(self.VERSION_REGEX, hideout_data).group(1)
+                self.language = re.search(self.LANGUAGE_REGEX, hideout_data).group(1)
+                self.hideout_name = re.search(self.HIDEOUT_NAME_REGEX, hideout_data).group(1)
+                self.hideout_hash = re.search(self.HIDEOUT_HASH_REGEX, hideout_data).group(1)
+            except AttributeError:
+                return False
             
-            decorations_raw_data = re.findall(self.DECORATIONS_REGEX, hideout_data)
-            self.doodads_data = pd.DataFrame(decorations_raw_data, columns=["name", "hash", "x", "y", "r", "fv"])
+            doodads_raw_data = re.findall(self.DECORATIONS_REGEX, hideout_data)
+
+            if not doodads_raw_data:
+                return False
+
+            self.doodads_data = pd.DataFrame(doodads_raw_data, columns=["name", "hash", "x", "y", "r", "fv"])
             self.doodads_data.insert(0, "uuid", None)
 
-            self.doodads_data = self.doodads_data.astype({"uuid" : str, "name" : str, "hash" : int,
-                                                                  "x" : int, "y" : int, "r" : int, "fv" : int})
+            self.doodads_data = self.doodads_data.astype({"uuid" : str, "name" : str, "hash" : int, 
+                                                          "x" : int, "y" : int, "r" : int, "fv" : int})
 
             self.doodads_data["uuid"] = self.doodads_data["uuid"].apply(lambda id: uuid.uuid4())
+            return True
+
+    def make_output_file(self, file_path : str):
+        with open(file_path, "w") as file:
+            file.write("qweqeqwe")
 
     def set_decoration_location(self, uuid : int, target_x : int, target_y : int):
         self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["x",]] = target_x

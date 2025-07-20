@@ -16,9 +16,9 @@ class DoodadListItem(QWidget):
         self.setup_ui(display_name)         
 
     def setup_ui(self, display_name : str):
-        self.vertical_layout = QVBoxLayout(self)
-        self.vertical_layout.setObjectName(u"vertical_layout")
-        self.setLayout(self.vertical_layout)
+        self.item_layout = QVBoxLayout(self)
+        self.item_layout.setObjectName(u"doodad_list_item_layout")
+        self.setLayout(self.item_layout)
 
         self.labels_container = QWidget(self)
         self.labels_container.setObjectName(u"labels_container")
@@ -33,7 +33,7 @@ class DoodadListItem(QWidget):
 
         self.labels_layout.addWidget(self.doodad_name_label)
         self.labels_layout.addWidget(self.doodad_count_label)
-        self.vertical_layout.addWidget(self.labels_container)
+        self.item_layout.addWidget(self.labels_container)
 
         self.buttons_container = QWidget(self)
         self.buttons_container.setObjectName(u"buttons_container")
@@ -53,7 +53,7 @@ class DoodadListItem(QWidget):
 
         self.buttons_layout.addWidget(self.visibility_button)
         self.buttons_layout.addWidget(self.show_only_button)
-        self.vertical_layout.addWidget(self.buttons_container) 
+        self.item_layout.addWidget(self.buttons_container) 
 
     def set_count(self, value : int):
         self.doodad_count_label.setText("x{}".format(value))

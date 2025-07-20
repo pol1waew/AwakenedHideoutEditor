@@ -1,16 +1,11 @@
-from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-                            QMetaObject, QObject, QPoint, QRect,
-                            QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
-                           QCursor, QFont, QFontDatabase, QGradient,
-                           QIcon, QImage, QKeySequence, QLinearGradient,
-                           QPainter, QPalette, QPixmap, QRadialGradient,
-                           QTransform)
-from PySide6.QtWidgets import (QApplication, QMainWindow, QMenu, QMenuBar,
-                               QSizePolicy, QStatusBar, QVBoxLayout, QHBoxLayout, 
-                               QWidget, QPushButton, QLayout, QScrollArea, QGraphicsScene)
+from PySide6.QtCore import QCoreApplication, QMetaObject, QRect
+from PySide6.QtGui import QAction
+from PySide6.QtWidgets import (QMainWindow, QMenu, QMenuBar,
+                               QStatusBar, QHBoxLayout, 
+                               QWidget, QGraphicsScene)
 from gui.custom_scene import Scene
 from gui.custom_view import View
+from gui.doodad_list import DoodadList
 
 
 class UserInterface(object):
@@ -21,19 +16,8 @@ class UserInterface(object):
         self.central_layout.setObjectName(u"central_layout")
         self.central_widget.setLayout(self.central_layout)
 
-        self.doodads_container = QWidget(self.central_widget)
-        self.doodads_container.setObjectName(u"doodads_container")
-        self.doodads_layout = QVBoxLayout(self.doodads_container)
-        self.doodads_layout.setObjectName(u"doodads_layout")
-        #self.doodads_layout.setSizeConstraint(QLayout.SizeConstraint.SetFixedSize)
-        self.doodads_container.setLayout(self.doodads_layout)
-        self.doodads_scroll_area = QScrollArea(self.central_widget)
-        self.doodads_scroll_area.setObjectName(u"doodads_scroll_area")
-        self.doodads_scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
-        self.doodads_scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
-        self.doodads_scroll_area.setWidgetResizable(True)
-        self.doodads_scroll_area.setWidget(self.doodads_container)
-        self.central_layout.addWidget(self.doodads_scroll_area)
+        self.doodads_list = DoodadList(self.central_widget)
+        self.central_layout.addWidget(self.doodads_list)
 
         self.scene = Scene()
         self.scene.setItemIndexMethod(QGraphicsScene.ItemIndexMethod.NoIndex)
@@ -41,7 +25,7 @@ class UserInterface(object):
         self.view.setScene(self.scene)
         self.central_layout.addWidget(self.view)
 
-        self.central_layout.setStretchFactor(self.doodads_scroll_area, 2)
+        self.central_layout.setStretchFactor(self.doodads_list, 2)
         self.central_layout.setStretchFactor(self.view, 7)
 
         main_window.setCentralWidget(self.central_widget)
@@ -53,16 +37,18 @@ class UserInterface(object):
 
         self.load_action = QAction(main_window)
         self.load_action.setObjectName(u"load_action")
-        self.override_action = QAction(main_window)
-        self.override_action.setObjectName(u"override_action")
+        self.save_as_action = QAction(main_window)
+        self.save_as_action.setObjectName(u"save_as_action")
+        self.save_as_action.setEnabled(False)
         self.save_action = QAction(main_window)
         self.save_action.setObjectName(u"save_action")
+        self.save_action.setEnabled(False)
 
         self.file_menu = QMenu(self.menubar)
         self.file_menu.setObjectName(u"file_menu")
         self.file_menu.addAction(self.load_action)
+        self.file_menu.addAction(self.save_as_action)
         self.file_menu.addAction(self.save_action)
-        self.file_menu.addAction(self.override_action)
 
         self.show_all_action = QAction(main_window)
         self.show_all_action.setObjectName(u"show_all_action")
@@ -70,6 +56,7 @@ class UserInterface(object):
         self.show_all_action.triggered.connect(self.scene.show_all)
         self.remove_mtx_action = QAction(main_window)
         self.remove_mtx_action.setObjectName(u"remove_mtx_action")
+        self.remove_mtx_action.setEnabled(False)
 
         self.funcs_menu = QMenu(self.menubar)
         self.funcs_menu.setObjectName(u"funcs_menu")
@@ -89,8 +76,8 @@ class UserInterface(object):
 
     def retranslate_ui(self):
         self.load_action.setText(QCoreApplication.translate("MainWindow", u"Load from file", None))
-        self.save_action.setText(QCoreApplication.translate("MainWindow", u"Save as new", None))
-        self.override_action.setText(QCoreApplication.translate("MainWindow", u"Override existing", None))
+        self.save_as_action.setText(QCoreApplication.translate("MainWindow", u"Save as", None))
+        self.save_action.setText(QCoreApplication.translate("MainWindow", u"Save", None))
         self.file_menu.setTitle(QCoreApplication.translate("MainWindow", u"File", None))
 
         self.show_all_action.setText(QCoreApplication.translate("MainWindow", u"Show all doodads", None))
