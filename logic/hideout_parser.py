@@ -4,12 +4,16 @@ import uuid
 
 
 class HideoutParser:
+    """Used for parsing .hideout files
+    """
+
     VERSION_REGEX = r'"version"\s*:\s*(\d+)'
     LANGUAGE_REGEX = r'"language"\s*:\s*"([\w\s]+)"'
     HIDEOUT_NAME_REGEX = r'"hideout_name"\s*:\s*"([\w\s]+)"'
     HIDEOUT_HASH_REGEX = r'"hideout_hash"\s*:\s*(\d+)'
     DECORATIONS_REGEX = r'"([\w\s]+)"\s*:\s*{\s*"hash"\s*:\s*(\d+),\s*"x"\s*:\s*(\d+),\s*"y"\s*:\s*(\d+),\s*"r"\s*:\s*(\d+),\s*"fv"\s*:\s*(\d+)\s*}'
-
+    OUTPUT_FILE_TEMPLATE = '{{\n\t"version": {version},\n\t"language": "{language}",\n\t"hideout_name": "{hideout_name}",\n\t"hideout_hash": {hideout_hash},\n\t"doodads": {{\n{doodads}\n\t}}\n}}'
+    OUTPUT_FILE_DOODAD_TEMPLATE = '\t\t"{name}": {{ "hash": {hash}, "x": {x}, "y": {y}, "r": {r}, "fv": {fv} }}'
 
     def parse_hideout_file(self, file_path : str) -> bool:
         """Parse hideout file from file_path
@@ -18,22 +22,22 @@ class HideoutParser:
         """
         
         with open(file_path, "r") as file:
-            hideout_data = file.read()
+            file_data = file.read()
             
             try:
-                self.version = re.search(self.VERSION_REGEX, hideout_data).group(1)
-                self.language = re.search(self.LANGUAGE_REGEX, hideout_data).group(1)
-                self.hideout_name = re.search(self.HIDEOUT_NAME_REGEX, hideout_data).group(1)
-                self.hideout_hash = re.search(self.HIDEOUT_HASH_REGEX, hideout_data).group(1)
+                self.version = re.search(self.VERSION_REGEX, file_data).group(1)
+                self.language = re.search(self.LANGUAGE_REGEX, file_data).group(1)
+                self.hideout_name = re.search(self.HIDEOUT_NAME_REGEX, file_data).group(1)
+                self.hideout_hash = re.search(self.HIDEOUT_HASH_REGEX, file_data).group(1)
             except AttributeError:
                 return False
             
-            doodads_raw_data = re.findall(self.DECORATIONS_REGEX, hideout_data)
+            found_data = re.findall(self.DECORATIONS_REGEX, file_data)
 
-            if not doodads_raw_data:
+            if not found_data:
                 return False
 
-            self.doodads_data = pd.DataFrame(doodads_raw_data, columns=["name", "hash", "x", "y", "r", "fv"])
+            self.doodads_data = pd.DataFrame(found_data, columns=["name", "hash", "x", "y", "r", "fv"])
             self.doodads_data.insert(0, "uuid", None)
 
             self.doodads_data = self.doodads_data.astype({"uuid" : str, "name" : str, "hash" : int, 
@@ -43,8 +47,22 @@ class HideoutParser:
             return True
 
     def make_output_file(self, file_path : str):
+        doodads_str = ""
+
+        for i, data in self.doodads_data.iterrows():
+            doodads_str += self.OUTPUT_FILE_DOODAD_TEMPLATE.format_map(data.to_dict())
+
+            if i < len(self.doodads_data) - 1:
+                doodads_str += ",\n"
+
+        hideout_str = self.OUTPUT_FILE_TEMPLATE.format(version=self.version,
+                                                          language=self.language, 
+                                                          hideout_name=self.hideout_name, 
+                                                          hideout_hash=self.hideout_hash,
+                                                          doodads=doodads_str)
+
         with open(file_path, "w") as file:
-            file.write("qweqeqwe")
+            file.writelines(hideout_str)
 
     def set_decoration_location(self, uuid : int, target_x : int, target_y : int):
         self.doodads_data.loc[self.doodads_data["uuid"] == uuid, ["x",]] = target_x
