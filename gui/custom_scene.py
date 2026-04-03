@@ -23,7 +23,7 @@ class Scene(QGraphicsScene):
             self.create_item(data["name"], data["uuid"], data["hash"], data["x"], data["y"])
 
     def create_item(self, display_name : str, uuid : str, doodad_hash : int, pos_x : float, pos_y : float):
-        scene_item = DoodadSceneItem("+" + display_name, uuid, doodad_hash)
+        scene_item = DoodadSceneItem("+" + display_name, uuid)
         scene_item.setPos(pos_x, pos_y)
 
         self.addItem(scene_item)
@@ -49,12 +49,15 @@ class Scene(QGraphicsScene):
             super().mousePressEvent(event)
 
     def mouseReleaseEvent(self, event : QGraphicsSceneMouseEvent):
-        moved_item = self.mouseGrabberItem()
+        # Check for clicking on any item
+        is_any_item_grabbed = True if self.mouseGrabberItem() else False
 
         super().mouseReleaseEvent(event)
     
-        if moved_item and not self.mouseGrabberItem():
-            self.item_moved()
+        # TODO: trigger only on item move (now triggers and on LMB select)
+        if self.selectedItems() and is_any_item_grabbed and not self.mouseGrabberItem():
+            for item in self.selectedItems():
+                item.on_item_moved()
 
     def keyPressEvent(self, event : QKeyEvent):
         if event.key() == Qt.Key.Key_Shift:
@@ -67,6 +70,3 @@ class Scene(QGraphicsScene):
             self.can_move_items = True
 
         super().keyReleaseEvent(event)
-
-    def item_moved(self):
-        print("qqqqq")

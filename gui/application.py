@@ -15,6 +15,9 @@ class Application(QApplication):
 
         self.main_window.show()
 
+        self.parser.parse_hideout_file("hideout_files/2B Dreadnought-1.0.hideout")
+        self.main_window.load_hideout_data(self.parser.doodads_data)
+
     def load_hideout(self):
         """Loads hideout file into a programm
         """

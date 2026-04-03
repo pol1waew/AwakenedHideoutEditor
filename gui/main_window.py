@@ -22,4 +22,5 @@ class MainWindow(QMainWindow):
 
     def load_hideout_data(self, doodads_data : pd.DataFrame):
         self.ui.scene.load_hideout_data(doodads_data)
-        self.ui.doodads_list.load_hideout_data(doodads_data)        
+        self.ui.view.fitInView(self.ui.scene.sceneRect(), Qt.AspectRatioMode.KeepAspectRatio)    
+        self.ui.doodads_list.load_hideout_data(doodads_data) 
